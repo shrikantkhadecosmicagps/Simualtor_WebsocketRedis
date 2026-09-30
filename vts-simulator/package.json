@@ -1,0 +1,13 @@
+{
+  "name": "vts-simulator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node simulator.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1143.0",
+    "@aws-sdk/lib-dynamodb": "^3.1143.0",
+    "redis": "^6.2.1",
+    "ws": "^8.22.0"
+  }
+}
